@@ -22,7 +22,18 @@ import { useTranslation } from "react-i18next";
 const Nav = () => {
   const [t, i18n] = useTranslation("global");
   const baseurl = import.meta.env.VITE_BASE_URL;
-
+  const menuItems = [
+    "Profile",
+    "Dashboard",
+    "Activity",
+    "Analytics",
+    "System",
+    "Deployments",
+    "My Settings",
+    "Team Settings",
+    "Help & Feedback",
+    "Log Out",
+  ];
   const Menu1 = () => {
     return (
       <Dropdown>
@@ -34,7 +45,6 @@ const Nav = () => {
             radius="sm"
             variant="light"
           >
-            
             {t("Nav.menu1")}
             <RiArrowDropDownLine className="mt-[2px]" />
           </Button>
