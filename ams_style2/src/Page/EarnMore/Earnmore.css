@@ -1,0 +1,301 @@
+/* Banner.jsx */
+.Banner_Earnmore {
+    position: relative;
+    width: 100%;
+    height: 440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.Banner_Earnmore .Banner_desp1 {
+    color: #fff;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* ----------------------------------- */
+/* F_Content.jsx */
+.Header_Contain1 {
+
+    display: flex;
+    width: 90%;
+    height: 47px;
+    margin: 0 auto;
+    flex-direction: column;
+    justify-content: center;
+    color: #3A3939;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.Tab_Body {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.Tab_Content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #42B8FB;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+/* ----------------------------------- */
+/* S_Content.jsx */
+.EarnMore_Con2 {
+    color: #3A3939;
+}
+
+.EarnMore_Con2 .Contain1,
+.EarnMore_Con3 .Contain1 {
+    margin: 0 auto;
+    width: 100%;
+    height: 46px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.EarnMore_Con2 .Contain2,
+.EarnMore_Con3 .Contain2 {
+    margin: 0 auto;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.EarnMore_Con2 .Contain3 {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    width: fit-content;
+    margin: 0 auto;
+}
+
+.Contain3_box {
+    width: 100%;
+    height: 342px;
+    border-radius: 5px;
+    background: #fff;
+    box-shadow: 0px 1px 5px 0px rgba(58, 57, 57, 0.10);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Contain3_box_video {
+    display: flex;
+    width: 100%;
+    height: 200px;
+    padding: 70px 0px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 5px 5px 0px 0px;
+}
+
+.Contain3_box_desp {
+    padding: 25px;
+}
+
+.desp_name {
+    color: #959595;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.desp_sup {
+    color: #3A3939;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* ----------------------------------- */
+/* Third_Content.jsx */
+.EarnMore_Con3 .Contain3 {
+    margin: 0 auto;
+    width: 65%;
+    height: 50px;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* ----------------------------------- */
+/* FAQ.jsx */
+.faq_header {
+    color: #42B8FB;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 120px;
+}
+
+.faq_desp {
+
+    color: #959595;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+@media screen and (min-width:640px) {
+
+    /* Banner.jsx */
+    .Banner_Earnmore {
+        position: relative;
+        width: 100%;
+        height: 440px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+    }
+
+    /* ----------------------------------- */
+    /* F_Content.jsx */
+    .Header_Contain1 {
+
+        display: flex;
+        width: 70%;
+        height: 47px;
+        margin: 0 auto;
+        flex-direction: column;
+        justify-content: center;
+        color: #3A3939;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .Tab_Body {
+        width: 80%;
+        margin: 0 auto;
+    }
+
+    .Tab_Content {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #42B8FB;
+        text-align: center;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    /* ----------------------------------- */
+    /* S_Content.jsx */
+    .EarnMore_Con2 {
+        color: #3A3939;
+    }
+
+    .EarnMore_Con2 .Contain1,
+    .EarnMore_Con3 .Contain1 {
+        margin: 0 auto;
+        width: 712px;
+        height: 46px;
+        text-align: center;
+        font-size: 40px;
+        font-weight: 700;
+    }
+
+    .EarnMore_Con2 .Contain2,
+    .EarnMore_Con3 .Contain2 {
+        margin: 0 auto;
+        width: 800px;
+        height: 50px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    .EarnMore_Con2 .Contain3 {
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        width: fit-content;
+        margin: 0 auto;
+    }
+
+    .Contain3_box {
+        width: 368px;
+        height: 342px;
+        border-radius: 5px;
+        background: #fff;
+        box-shadow: 0px 1px 5px 0px rgba(58, 57, 57, 0.10);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .Contain3_box_video {
+        display: flex;
+        width: 368px;
+        height: 200px;
+        padding: 70px 0px;
+        justify-content: center;
+        align-items: center;
+        flex-shrink: 0;
+        border-radius: 5px 5px 0px 0px;
+    }
+
+    .Contain3_box_desp {
+        padding: 25px;
+    }
+
+    .desp_name {
+        color: #959595;
+        font-size: 12px;
+        font-weight: 700;
+    }
+
+    .desp_sup {
+        color: #3A3939;
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+    /* ----------------------------------- */
+    /* Third_Content.jsx */
+    .EarnMore_Con3 .Contain3 {
+        margin: 0 auto;
+        width: 65%;
+        height: 50px;
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    /* ----------------------------------- */
+    /* FAQ.jsx */
+    .faq_header {
+        color: #42B8FB;
+        text-align: center;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 120px;
+    }
+
+    .faq_desp {
+
+        color: #959595;
+        font-size: 14px;
+        font-weight: 400;
+    }
+}

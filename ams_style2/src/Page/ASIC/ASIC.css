@@ -1,0 +1,216 @@
+/* Banner.jsx */
+.Banner_ASIC {
+    
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+}
+.Banner_desp1 {
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+  
+}
+.ASIC_content .headerContent {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.Banner_desp2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    /* 150% */
+}
+.ASIC_detail {
+    display: flex;
+ 
+    justify-content: center;
+   ;
+    gap: 50px 60px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.ASIC_detail_box {
+ 
+    width: 268px;
+    height: 350px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 5px 10px 0px rgba(35, 35, 35, 0.10);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ASICdesp_box {
+    padding: 0px 15px 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #3A3939;
+    overflow: auto; 
+    scrollbar-width: none;
+    
+    
+}::-webkit-scrollbar {
+    display: none;
+  }
+
+
+
+  /* Banner2.jsx */
+.Banner_ASIC2 {
+    position: relative;
+    width: 100%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.ASICbanner_desp1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.ASICbanner_desp2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 400;
+}
+.ASICbanner_btn {
+    width: 150px;
+    line-height: 43px;
+    border-radius: 4px;
+    box-shadow: 0px 20px 4px -18px rgba(251, 163, 66, 0.32);
+    background: linear-gradient(93deg, #9BEDFF -0.12%, #42B8FB 99.88%);
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+
+/*  */
+@media (min-width: 640px) { 
+    .Banner_ASIC {
+        position: relative;
+        width: 100%;
+        height: 440px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .Banner_desp1 {
+        color: #fff;
+        text-align: center;
+        font-size: 48px;
+        font-weight: 700;
+    }
+    .Banner_desp2 {
+        color: #FFF;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 24px;
+        /* 150% */
+    }
+    .ASIC_detail {
+        display: flex;
+        width: 1077px;
+        justify-content: center;
+        align-items: flex-start;
+        align-content: flex-start;
+        gap: 50px 60px;
+        flex-wrap: wrap;
+        margin: 0 auto;
+    }
+    
+    .ASIC_detail_box {
+        width: 268px;
+        height: 350px;
+        border-radius: 5px;
+        background: #FFF;
+        box-shadow: 0px 5px 10px 0px rgba(35, 35, 35, 0.10);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    
+    .ASICdesp_box {
+        padding: 0px 15px 5px;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #3A3939;
+        overflow: auto; 
+        scrollbar-width: none;
+        
+        
+    }::-webkit-scrollbar {
+        display: none;
+      }
+     /* Banner2.jsx */
+.Banner_ASIC2 {
+    position: relative;
+    width: 100%;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.ASICbanner_desp1 {
+    color: #FFF;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.ASICbanner_desp2 {
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+.ASICbanner_btn {
+    width: 150px;
+    line-height: 43px;
+    border-radius: 4px;
+    box-shadow: 0px 20px 4px -18px rgba(251, 163, 66, 0.32);
+    background: linear-gradient(93deg, #9BEDFF -0.12%, #42B8FB 99.88%);
+    color: #FFF;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 60px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+}
+/*  */
+
+/* -------------------------------------------- */
+/* F_Content.jsx */
+
+
+
+/* -------------------------------------------- */

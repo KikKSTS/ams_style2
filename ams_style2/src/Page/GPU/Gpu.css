@@ -1,0 +1,32 @@
+.line {
+    height: 300px;
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align:center;
+    
+}
+.line:before {
+    border-left: 4px solid #EEEEEE ;
+    content: "";
+    display: block;
+    height: 150px;
+    left: 34px;
+  
+    top: 30px;
+    width: 1px;
+    z-index: 0;
+}
+
+.line:after {
+    border-left: 4px solid #EEEEEE ;
+    content: "";
+    display: block;
+    height: 150px;
+    left: 32px;
+    
+    top: 140px;
+    width: 1px;
+    z-index: 0;
+}
